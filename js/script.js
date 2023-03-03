@@ -89,6 +89,7 @@ function DisabledButtons(estado){
 }
 
 function reboot(){
+    intents=2;
     document.getElementById('result').innerHTML = "";
     let buttons = document.querySelectorAll('.item-options');
   buttons.forEach((boton) => {
