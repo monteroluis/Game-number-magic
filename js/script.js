@@ -80,6 +80,7 @@ function listener(){
 });
 }
 
+
 function DisabledButtons(estado){
   let buttons = document.querySelectorAll('.item-options');
   buttons.forEach((boton) => {
@@ -98,5 +99,7 @@ function reboot(){
 });
 
 }
+
+
 
 
