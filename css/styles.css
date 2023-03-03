@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Parisienne&display=swap');
+
+:root{
+	--margin-top-container:50px;
+	--min-width-container: 200px;
+	--margin-lateral:10%;
+}
+
+
+* {
+	border: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(40 41 35);
+}
+
+.container{
+	width: 100%;
+	min-width: 800px;
+	min-height: 500px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.tarjet{
+	width: 200px;
+	height: 300px;
+	padding: 1rem;
+	border-radius: 15px;
+	background-color: #f4f4f4;
+	cursor: default;
+}
+
+.intern-tarjet{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Parisienne', cursive;
+	font-size: 35px;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	border:2px solid #efb810;
+}
+
+
+.container-aside{
+    width: 25%;
+    min-width: var(--min-width-container);
+	display: flex;
+	flex-direction: column;
+	top:var(--margin-top-container);
+}
+
+
+.container-left{	
+	left:var(--margin-lateral);
+	z-index: 1;	
+}
+
+.container-right{
+	right:var(--margin-lateral);
+	z-index: 1;
+}
+
+
+.item-options{
+	font-family: 'Labrada', serif;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+	height:3rem ;
+	margin: 1rem;
+	cursor: pointer;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 15px 15px #000000;
+}
+
+
+.item-options:hover{
+   
+	color: #000000;
+	background-color: #E2FF52;
+	transition-property: width,background-color,;
+	transition-duration: 2s,2s;
+	transition-timing-function: ease-out;
+}
+
+.button-start{
+	width: 230px;
+	height: 40px;
+	background-color: #CCEB34;
+	padding: 10px;
+	border-radius: 50px;
+	bottom: 20px;
+	margin-left:auto;
+    margin-right:auto;
+    cursor: pointer;
+}
+ .container-end{
+ 	width: 100%;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+
